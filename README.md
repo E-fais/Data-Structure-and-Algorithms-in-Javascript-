@@ -25,18 +25,18 @@ const addTwo=(num)=>{
 Return sum} 
 addTwo(8)
  ```
-In this example function requires same time for any name input. 
+In this example function requires same time for any number input. 
 
 #### O(n) - Linear Time Complexity: 
 The running time of the algorithm increases linearly with the input size. Examples include iterating over an array.
  ``` 
-const myLoop=(arr){
+const myLoop=(arr)=>{
 for(let i=0;i<arr.length;i++){
 console.log(arr[i])
 }}
 myLoop(["apple","orange",banana"])
 ```
-In this example time required to run the " myLoop " function will increase when length of the array increases.
+In this example time required to run the " myLoop " function will increase linearly when length of the array increases.
 #### O(n^2) - Quadratic Time Complexity 
 The running time of the algorithm increases quadratically with the input size. Examples include nested loops that iterate over a 2D array.
 
