@@ -1,11 +1,23 @@
 ## Learning Data Structure and Algorithms.
 This repository contains my practice lessons and implementations for learning data structures.
+
+- [Day 1- Big O Notation](#day-1--big-o-notation)
+  - [Time complexity](#time-complexity)
+    - [O(1) - Constant Time Complexity](#o1---constant-time-complexity)
+    - [O(n) - Linear Time Complexity](#on---linear-time-complexity)
+    - [O(n^2) - Quadratic Time Complexity](#on2---quadratic-time-complexity)
+  - [Space Complexity in JavaScript](#space-complexity-in-javascript)
+    - [Constant Space Complexity (O(1))](#constant-space-complexity-o1)
+    - [Linear Space Complexity (O(n))](#linear-space-complexity-on)
+    - [Quadratic Space Complexity (O(n^k))](#quadratic--space-complexity-onk)
+
+
 ### Day 1- Big O Notation :
 #### Time complexity 
 Time complexity is a measure of how the running time of an algorithm grows as the input size increases.
 common time complexities and their corresponding Big O notations in JavaScript:
 
-<b> O(1) - Constant Time Complexity:</b>
+#### O(1) - Constant Time Complexity:
  The running time of the algorithm remains constant, regardless of the input size. Examples include basic arithmetic operations, assignment, accessing an element in an array etc
  ``` 
 const addTwo=(num)=>{
@@ -15,7 +27,8 @@ addTwo(8)
  ```
 In this example function requires same time for any name input. 
 
-<b> O(n) - Linear Time Complexity: </b> The running time of the algorithm increases linearly with the input size. Examples include iterating over an array.
+#### O(n) - Linear Time Complexity: 
+The running time of the algorithm increases linearly with the input size. Examples include iterating over an array.
  ``` 
 const myLoop=(arr){
 for(let i=0;i<arr.length;i++){
@@ -24,7 +37,7 @@ console.log(arr[i])
 myLoop(["apple","orange",banana"])
 ```
 In this example time required to run the " myLoop " function will increase when length of the array increases.
-<br><b> O(n^2) - Quadratic Time Complexity:</b> 
+#### O(n^2) - Quadratic Time Complexity 
 The running time of the algorithm increases quadratically with the input size. Examples include nested loops that iterate over a 2D array.
 
 ```
